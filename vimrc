@@ -6,6 +6,8 @@ call pathogen#helptags()
 
 set nocompatible
 
+color ir_black
+
 syntax on
 filetype plugin indent on
 
