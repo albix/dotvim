@@ -1,8 +1,16 @@
+filetype off
+
+call pathogen#runtime_append_all_bundles()
 call pathogen#infect()
+call pathogen#helptags()
+
+set nocompatible
 
 syntax on
-filetype on
 filetype plugin indent on
+
+set background=dark
+colorscheme solarized
 
 set list
 set number
