@@ -9,9 +9,6 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
-set background=dark
-colorscheme solarized
-
 set list
 set number
 set autoindent
