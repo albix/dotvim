@@ -11,6 +11,7 @@ color ir_black
 syntax on
 filetype plugin indent on
 
+set encoding=utf-8
 set list
 set number
 set autoindent
@@ -35,3 +36,6 @@ set hlsearch
 autocmd vimenter * NERDTree
 autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+let g:Powerline_symbols = 'unicode'
+set laststatus=2
