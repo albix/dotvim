@@ -32,3 +32,8 @@ set nrformats=
 
 let g:Powerline_symbols = 'unicode'
 set laststatus=2
+
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
